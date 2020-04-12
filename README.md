@@ -1,6 +1,4 @@
-# vim-moon-color
-It is a dark and light color scheme that works with vim.
-
+![Logo](https://github.com/ArthurPV/vim-moon-color/blob/master/img/logo.svg)
 ## Compatibility with different languages
 It is compatible with many languages like: 
 - C++, C, Clojure, JavaScript, Ruby, PHP, Perl, Lua, HTML, CSS
