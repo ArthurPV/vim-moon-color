@@ -37,7 +37,7 @@ let s:bold = 'bold'
   let s:cyan = '#16E8C6'
   let s:blue = '#39A9FA'
   let s:pink = '#E139F4'
-  let s:grey = '#838383
+  let s:grey = '#838383'
 " ---------------------------------
 " Syntax
 call s:H('Comment', s:grey, s:bg, s:none)
