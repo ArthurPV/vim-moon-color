@@ -1,2 +1,2 @@
 # vim-color-moon
-A cool vim color scheme dark/light.
+It is a dark and light color scheme that works with vim
