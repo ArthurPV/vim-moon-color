@@ -6,3 +6,10 @@ It is compatible with many languages like:
 - C++, C, Clojure, JavaScript, Ruby, PHP, Perl, Lua, HTML, CSS
 - Elixir, Haskell, PureScript, Bash/Shell, XML, MarkDown, Python, Go
 - Rust, Java...
+
+## For configure light theme
+```VimL
+syntax on
+set background=light
+colorscheme mooncolorlight
+```
