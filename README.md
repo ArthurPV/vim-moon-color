@@ -1,5 +1,7 @@
 <p align="center"><img src="https://github.com/ArthurPV/vim-moon-color/blob/master/img/logo.svg" alt="logo"></p>
 
+It is a dark and light color scheme that works with vim.
+
 ## Compatibility with different languages
 It is compatible with many languages like: 
 - C++, C, Clojure, JavaScript, Ruby, PHP, Perl, Lua, HTML, CSS
