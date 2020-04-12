@@ -14,3 +14,10 @@ syntax on
 set background=light
 colorscheme mooncolorlight
 ```
+## For configure dark theme
+It is obviously necessary to add this configuration to the `.vimrc`:
+```VimL
+syntax on
+set background=dark
+colorscheme mooncolordark
+```
