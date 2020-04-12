@@ -1,4 +1,4 @@
-# vim-color-moon
+# vim-moon-color
 It is a dark and light color scheme that works with vim.
 
 ## Compatibility with different languages
