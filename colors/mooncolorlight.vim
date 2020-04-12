@@ -30,7 +30,7 @@ let s:bold = 'bold'
   let s:fg = '#0d0d0d'
   let s:red = '#f40e0e'
   let s:orange = '#f47b11'
-  let s:yellow = '#e5e534'
+  let s:blueDark = '#051649'
   let s:green = '#07840a'
   let s:cyan = '#088c76'
   let s:blue = '#07418e'
@@ -45,7 +45,7 @@ call s:H('Character', s:green, s:bg, s:none)
 call s:H('Number', s:orange, s:bg, s:none)
 call s:H('Boolean', s:orange, s:bg, s:none)
 call s:H('Float', s:orange, s:bg, s:none)
-call s:H('Identifier', s:yellow, s:bg, s:none)
+call s:H('Identifier', s:blueDark, s:bg, s:none)
 call s:H('Function', s:cyan, s:bg, s:none)
 call s:H('Statement', s:pink, s:bg, s:bold)
 call s:H('Conditional', s:pink, s:bg, s:bold)
@@ -57,9 +57,9 @@ call s:H('Exception', s:pink, s:bg, s:none)
 call s:H('PreProc', s:red, s:bg, s:none)
 call s:H('Include', s:blue, s:bg, s:none)
 call s:H('Define', s:blue, s:bg, s:none)
-call s:H('Macro', s:yellow, s:bg, s:none)
+call s:H('Macro', s:blueDark, s:bg, s:none)
 call s:H('PreCondit', s:orange, s:bg, s:none)
-call s:H('Type', s:yellow, s:bg, s:bold)
+call s:H('Type', s:blueDark, s:bg, s:bold)
 call s:H('StorageClass', s:blue, s:bg, s:bold)
 call s:H('Structure', s:cyan, s:bg, s:none)
 call s:H('Typedef', s:cyan, s:bg, s:none)
@@ -89,7 +89,7 @@ call s:H('NonText', s:fg, s:bg, s:none)
 call s:H('CursorLineNr', s:fg, s:bg, s:none)
 call s:H('VertSplit', s:grey, s:bg, s:none)
 call s:H('ErrorMsg', s:fg, s:red, s:none)
-call s:H('Title', s:yellow, s:bg, s:none)
+call s:H('Title', s:blueDark, s:bg, s:none)
 call s:H('Pmenu', s:fg, s:bg2, s:none)
 " ------------------------------------
 " Html
