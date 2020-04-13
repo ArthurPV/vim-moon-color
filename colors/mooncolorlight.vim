@@ -123,3 +123,11 @@ call s:H('javaScriptFunction', s:cyan, s:bg, s:none)
 call s:H('javaScriptBraces', s:fg, s:bg2, s:none)
 call s:H('javaScriptParens', s:fg, s:bg2, s:none)
 call s:H('javaScriptType, s:yellow, s:bg, s:none)
+" ------------------------------------
+" Perl
+call s:H('perlConditional', s:pink, s:bg, s:bold)
+call s:H('perlRepeat', s:pink, s:bg, s:bold)
+call s:H('perlOperator', s:cyan, s:bg, s:none)
+call s:H('perlStatementControl', s:pink, s:bg, s:bold)
+call s:H('perlMethod', s:cyan, s:bg, s:none)
+call s:H('perlComment', s:grey, s:bg, s:none)
