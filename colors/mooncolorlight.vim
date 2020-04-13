@@ -29,7 +29,7 @@ let s:underline = 'underline'
   let s:green = '#5E7F7E'
   let s:cyan = '#00C6CF'
   let s:blue = '#AED7DD'
-  let s:pink = '#FEE6FA'
+  let s:pink = '#F831D7'
   let s:grey = '#E3E3E3'
 " ---------------------------------
 " Syntax
