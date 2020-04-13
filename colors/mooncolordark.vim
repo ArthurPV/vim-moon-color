@@ -30,7 +30,7 @@ let s:underline = 'underline'
   let s:cyan = '#0C8585'
   let s:blue = '#265967'
   let s:pink = '#EF83CE'
-  let s:grey = '#BEC7D2'
+  let s:grey = '#C4C4C4'
 " ---------------------------------
 " Syntax
 call s:H('Comment', s:grey, s:bg, s:none)
