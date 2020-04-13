@@ -3,7 +3,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'mooncolordark'
+let g:colors_name = 'mooncolorlight'
 
 function! s:H(group, foreground, background, fontStyle)
     exec  "highlight "  . a:group
