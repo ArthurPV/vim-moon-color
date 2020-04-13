@@ -142,3 +142,8 @@ call s:H('javaExceptions', s:pink, s:bg, s:none)
 call s:H('javaComment', s:grey, s:bg, s:none)
 call s:H('javaFuncDef', s:cyan, s:bg, s:none)
 call s:H('javaDebug', s:red, s:bg, s:none)
+" -----------------------------------
+" Ruby
+call s:H('rubyRegexpCharClass', s:red, s:bg, s:none)
+call s:H('rubyPredefinedVariable', s:yellow, s:bg, s:bold)
+call s:H('rubyPredefinedVariable', s:yellow, s:bg, s:bold)
