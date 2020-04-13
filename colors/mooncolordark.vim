@@ -22,7 +22,7 @@ let s:underline = 'underline'
 " Colors
   let s:bg = '#293139'
   let s:bg2 = '#37434E'
-  let s:fg = '#F0F0F0'
+  let s:fg = '#0D0D0D'
   let s:red = '#F97171'
   let s:orange = '#F9C271'
   let s:yellow = '#F9F871'
