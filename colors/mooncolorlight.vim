@@ -28,7 +28,7 @@ let s:underline = 'underline'
   let s:yellow = '#8D0AFA'
   let s:green = '#1CA67E'
   let s:cyan = '#0C8AA0'
-  let s:blue = '#11B0C7'
+  let s:blue = '#1686B7'
   let s:pink = '#F831D7'
   let s:grey = '#A6A5A5'
 " ---------------------------------
