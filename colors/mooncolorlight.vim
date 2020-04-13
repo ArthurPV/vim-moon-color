@@ -1,11 +1,9 @@
-
-" ---------------------------------
 highlight clear
 if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'mooncolorlight'
+let g:colors_name = 'mooncolordark'
 
 function! s:H(group, foreground, background, fontStyle)
     exec  "highlight "  . a:group
@@ -15,27 +13,24 @@ function! s:H(group, foreground, background, fontStyle)
       \ . " cterm="     . a:fontStyle
 endfunction
 
-set background=light
+set background=dark
 " ---------------------------------
 " Font style
 let s:none = 'NONE'
 let s:underline = 'underline'
-let s:bold = 'bold'
 " ---------------------------------
 " Colors
-  let s:bg = '#ececec'
+  let s:bg = '#ECECEC'
   let s:bg2 = '#ddd9d9'
-  let s:bg_red = '#870000'
-  let s:bg_blue = '#000087'
   let s:fg = '#0d0d0d'
-  let s:red = '#f40e0e'
-  let s:orange = '#f47b11'
-  let s:blueDark = '#051649'
-  let s:green = '#07840a'
-  let s:cyan = '#088c76'
-  let s:blue = '#07418e'
-  let s:pink = '#81078e'
-  let s:grey = '#838383'
+  let s:red = '#FFD8C3'
+  let s:orange = '#FFE290'
+  let s:yellow = '#F9F871'
+  let s:green = '#5E7F7E'
+  let s:cyan = '#00C6CF'
+  let s:blue = '#AED7DD'
+  let s:pink = '#FEE6FA'
+  let s:grey = '#E3E3E3'
 " ---------------------------------
 " Syntax
 call s:H('Comment', s:grey, s:bg, s:none)
@@ -45,22 +40,22 @@ call s:H('Character', s:green, s:bg, s:none)
 call s:H('Number', s:orange, s:bg, s:none)
 call s:H('Boolean', s:orange, s:bg, s:none)
 call s:H('Float', s:orange, s:bg, s:none)
-call s:H('Identifier', s:blueDark, s:bg, s:bold)
+call s:H('Identifier', s:yellow, s:bg, s:none)
 call s:H('Function', s:cyan, s:bg, s:none)
-call s:H('Statement', s:pink, s:bg, s:bold)
-call s:H('Conditional', s:pink, s:bg, s:bold)
-call s:H('Repeat', s:pink, s:bg, s:bold)
-call s:H('Label', s:pink, s:bg, s:bold)
-call s:H('Operator', s:cyan, s:bg, s:none)
-call s:H('Keyword', s:pink, s:bg, s:bold)
+call s:H('Statement', s:pink, s:bg, s:none)
+call s:H('Conditional', s:pink, s:bg, s:none)
+call s:H('Repeat', s:pink, s:bg, s:none)
+call s:H('Label', s:pink, s:bg, s:none)
+call s:H('Operator', s:pink, s:bg, s:none)
+call s:H('Keyword', s:pink, s:bg, s:none)
 call s:H('Exception', s:pink, s:bg, s:none)
 call s:H('PreProc', s:red, s:bg, s:none)
 call s:H('Include', s:blue, s:bg, s:none)
 call s:H('Define', s:blue, s:bg, s:none)
-call s:H('Macro', s:blueDark, s:bg, s:none)
-call s:H('PreCondit', s:orange, s:bg, s:none)
-call s:H('Type', s:blueDark, s:bg, s:bold)
-call s:H('StorageClass', s:blue, s:bg, s:bold)
+call s:H('Macro', s:yellow, s:bg, s:none)
+call s:H('PreCondit', s:yellow, s:bg, s:none)
+call s:H('Type', s:yellow, s:bg, s:none)
+call s:H('StorageClass', s:cyan, s:bg, s:none)
 call s:H('Structure', s:cyan, s:bg, s:none)
 call s:H('Typedef', s:cyan, s:bg, s:none)
 call s:H('Special', s:orange, s:bg, s:none)
@@ -71,7 +66,7 @@ call s:H('SpecialComment', s:grey, s:bg, s:none)
 call s:H('Debug', s:red, s:bg, s:none)
 call s:H('Unerlined', s:blue, s:bg, s:underline)
 call s:H('Ignore', s:fg, s:bg, s:none)
-call s:H('Todo', s:fg, s:bg_blue, s:none)
+call s:H('Todo', s:fg, s:blue, s:none)
 call s:H('Error', s:fg, s:red, s:none)
 call s:H('Question', s:green, s:bg, s:none)
 call s:H('Directory', s:blue, s:bg, s:none)
@@ -89,7 +84,7 @@ call s:H('NonText', s:fg, s:bg, s:none)
 call s:H('CursorLineNr', s:fg, s:bg, s:none)
 call s:H('VertSplit', s:grey, s:bg, s:none)
 call s:H('ErrorMsg', s:fg, s:red, s:none)
-call s:H('Title', s:blueDark, s:bg, s:none)
+call s:H('Title', s:yellow, s:bg, s:none)
 call s:H('Pmenu', s:fg, s:bg2, s:none)
 " ------------------------------------
 " Html
@@ -109,35 +104,35 @@ call s:H('cssFunction', s:cyan, s:bg, s:none)
 " JavaScript
 call s:H('javaScriptComment', s:grey, s:bg, s:none)
 call s:H('javaScriptNumber', s:orange, s:bg, s:none)
-call s:H('javaScriptConditional', s:pink, s:bg, s:bold)
-call s:H('javaScriptRepeat', s:pink, s:bg, s:bold)
-call s:H('javaScriptBranch', s:blueDark, s:bg, s:bold)
+call s:H('javaScriptConditional', s:pink, s:bg, s:none)
+call s:H('javaScriptRepeat', s:pink, s:bg, s:none)
+call s:H('javaScriptBranch', s:yellow, s:bg, s:none)
 call s:H('javaScriptOperator', s:cyan, s:bg, s:none)
-call s:H('javaScriptStatement', s:pink, s:bg, s:bold)
-call s:H('javaScriptIdentifier', s:blueDark, s:bg, s:bold)
+call s:H('javaScriptStatement', s:pink, s:bg, s:none)
+call s:H('javaScriptIdentifier', s:yellow, s:bg, s:none)
 call s:H('javaScriptBoolean', s:orange, s:bg, s:none)
-call s:H('javaScriptNull', s:pink, s:bg, s:bold)
-call s:H('javaScriptLabel', s:pink, s:bg, s:bold)
+call s:H('javaScriptNull', s:pink, s:bg, s:none)
+call s:H('javaScriptLabel', s:pink, s:bg, s:none)
 call s:H('javaScriptException', s:pink, s:bg, s:none)
 call s:H('javaScriptFunction', s:cyan, s:bg, s:none)
-call s:H('javaScriptType', s:blueDark, s:bg, s:none)
+call s:H('javaScriptType', s:yellow, s:bg, s:none)
 " ------------------------------------
 " Perl
-call s:H('perlConditional', s:pink, s:bg, s:bold)
-call s:H('perlRepeat', s:pink, s:bg, s:bold)
+call s:H('perlConditional', s:pink, s:bg, s:none)
+call s:H('perlRepeat', s:pink, s:bg, s:none)
 call s:H('perlOperator', s:cyan, s:bg, s:none)
-call s:H('perlStatementControl', s:pink, s:bg, s:bold)
+call s:H('perlStatementControl', s:pink, s:bg, s:none)
 call s:H('perlMethod', s:cyan, s:bg, s:none)
 call s:H('perlComment', s:grey, s:bg, s:none)
 " ------------------------------------
 " Java
-call s:H('javaConditional', s:pink, s:bg, s:bold)
-call s:H('javaRepeat', s:pink, s:bg, s:bold)
+call s:H('javaConditional', s:pink, s:bg, s:none)
+call s:H('javaRepeat', s:pink, s:bg, s:none)
 call s:H('javaBoolean', s:orange, s:bg, s:none)
 call s:H('javaConstant', s:cyan, s:bg, s:none)
-call s:H('javaTypedef', s:blueDark, s:bg, s:none)
-call s:H('javaType', s:blueDark, s:bg, s:bold)
-call s:H('javaStatement', s:pink, s:bg, s:bold)
+call s:H('javaTypedef', s:yellow, s:bg, s:none)
+call s:H('javaType', s:yellow, s:bg, s:none)
+call s:H('javaStatement', s:pink, s:bg, s:none)
 call s:H('javaStorageClass', s:blue, s:bg, s:none)
 call s:H('javaExceptions', s:pink, s:bg, s:none)
 call s:H('javaComment', s:grey, s:bg, s:none)
@@ -146,10 +141,10 @@ call s:H('javaDebug', s:red, s:bg, s:none)
 " -----------------------------------
 " Ruby
 call s:H('rubyRegexpCharClass', s:cyan, s:bg, s:none)
-call s:H('rubyPredefinedVariable', s:blueDark, s:bg, s:bold)
-call s:H('rubyPredefinedVariable', s:blueDark, s:bg, s:bold)
-call s:H('rubyKeyword', s:pink, s:bg, s:bold)
-call s:H('rubyControl', s:pink, s:bg, s:bold)
-call s:H('rubyBeginEnd', s:pink, s:bg, s:bold)
-call s:H('rubyClass', s:pink, s:bg, s:bold)
+call s:H('rubyPredefinedVariable', s:yellow, s:bg, s:none)
+call s:H('rubyPredefinedVariable', s:yellow, s:bg, s:none)
+call s:H('rubyKeyword', s:pink, s:bg, s:none)
+call s:H('rubyControl', s:pink, s:bg, s:none)
+call s:H('rubyBeginEnd', s:pink, s:bg, s:none)
+call s:H('rubyClass', s:pink, s:bg, s:none)
 call s:H('rubyMethodName', s:cyan, s:bg, s:none)
