@@ -13,7 +13,7 @@ function! s:H(group, foreground, background, fontStyle)
       \ . " cterm="     . a:fontStyle
 endfunction
 
-set background=dark
+set background=light
 " ---------------------------------
 " Font style
 let s:none = 'NONE'
