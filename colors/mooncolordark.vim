@@ -119,7 +119,7 @@ call s:H('javaScriptNull', s:pink, s:bg, s:bold)
 call s:H('javaScriptLabel', s:pink, s:bg, s:bold)
 call s:H('javaScriptException', s:pink, s:bg, s:none)
 call s:H('javaScriptFunction', s:cyan, s:bg, s:none)
-call s:H('javaScriptType, s:yellow, s:bg, s:none)
+call s:H('javaScriptType', s:yellow, s:bg, s:none)
 " ------------------------------------
 " Perl
 call s:H('perlConditional', s:pink, s:bg, s:bold)
