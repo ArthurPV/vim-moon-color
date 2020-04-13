@@ -147,6 +147,11 @@ call s:H('javaFuncDef', s:cyan, s:bg, s:none)
 call s:H('javaDebug', s:red, s:bg, s:none)
 " -----------------------------------
 " Ruby
-call s:H('rubyRegexpCharClass', s:red, s:bg, s:none)
+call s:H('rubyRegexpCharClass', s:cyan, s:bg, s:none)
 call s:H('rubyPredefinedVariable', s:yellow, s:bg, s:bold)
 call s:H('rubyPredefinedVariable', s:yellow, s:bg, s:bold)
+call s:H('rubyKeyword', s:pink, s:bg, s:bold)
+call s:H('rubyControl', s:pink, s:bg, s:bold)
+call s:H('rubyBeginEnd', s:pink, s:bg, s:bold)
+call s:H('rubyClass', s:pink, s:bg, s:bold)
+call s:H('rubyMethodName', s:cyan, s:bg, s:none)
