@@ -22,7 +22,7 @@ syntax on
 set background=dark
 colorscheme mooncolordark
 ```
-## Screenshot
+## Screenshots
 ![Light code html](https://github.com/ArthurPV/vim-moon-color/blob/master/img/light_code_html.png)
 ![Light code c++](https://github.com/ArthurPV/vim-moon-color/blob/master/img/light_code_cpp.png)
 ![Light code js](https://github.com/ArthurPV/vim-moon-color/blob/master/img/light_code_js.png)
