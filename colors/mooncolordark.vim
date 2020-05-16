@@ -18,6 +18,7 @@ set background=dark
 " Font style
 let s:none = 'NONE'
 let s:underline = 'underline'
+let s:bold='bold'
 " ---------------------------------
 " Colors
   let s:bg = '#293139'
@@ -41,13 +42,13 @@ call s:H('Number', s:orange, s:bg, s:none)
 call s:H('Boolean', s:orange, s:bg, s:none)
 call s:H('Float', s:orange, s:bg, s:none)
 call s:H('Identifier', s:yellow, s:bg, s:none)
-call s:H('Function', s:cyan, s:bg, s:none)
-call s:H('Statement', s:pink, s:bg, s:none)
-call s:H('Conditional', s:pink, s:bg, s:none)
+call s:H('Function', s:cyan, s:bg, s:bold)
+call s:H('Statement', s:pink, s:bg, s:bold)
+call s:H('Conditional', s:pink, s:bg, s:bold)
 call s:H('Repeat', s:pink, s:bg, s:none)
 call s:H('Label', s:pink, s:bg, s:none)
 call s:H('Operator', s:pink, s:bg, s:none)
-call s:H('Keyword', s:pink, s:bg, s:none)
+call s:H('Keyword', s:pink, s:bg, s:bold)
 call s:H('Exception', s:pink, s:bg, s:none)
 call s:H('PreProc', s:red, s:bg, s:none)
 call s:H('Include', s:blue, s:bg, s:none)
@@ -55,7 +56,7 @@ call s:H('Define', s:blue, s:bg, s:none)
 call s:H('Macro', s:yellow, s:bg, s:none)
 call s:H('PreCondit', s:yellow, s:bg, s:none)
 call s:H('Type', s:yellow, s:bg, s:none)
-call s:H('StorageClass', s:cyan, s:bg, s:none)
+call s:H('StorageClass', s:cyan, s:bg, s:bold)
 call s:H('Structure', s:cyan, s:bg, s:none)
 call s:H('Typedef', s:cyan, s:bg, s:none)
 call s:H('Special', s:orange, s:bg, s:none)
