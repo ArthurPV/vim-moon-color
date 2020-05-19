@@ -78,7 +78,7 @@ call s:H('ColorColumn', s:fg, s:bg, s:none)
 " Interface
 call s:H('Normal', s:fg, s:bg, s:none)
 call s:H('Visual', s:none, s:bg2, s:none)
-call s:H('Cursor', s:none, s:bg, s:none)
+call s:H('Cursor', s:none, s:fg, s:none)
 call s:H('iCursor', s:none, s:bg, s:none)
 call s:H('LineNr', s:fg, s:bg, s:none)
 call s:H('NonText', s:fg, s:bg, s:none)
