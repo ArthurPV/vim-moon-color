@@ -30,7 +30,7 @@ let s:bold='bold'
   let s:green = '#93D97E'
   let s:cyan = '#2DAFAF'
   let s:blue = '#1A9FC3'
-  let s:hard_blue = '#415970'
+  let s:hard_blue = '#1066b2'
   let s:pink = '#EF83CE'
   let s:grey = '#C4C4C4'
 " ---------------------------------
