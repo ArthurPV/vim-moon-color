@@ -30,6 +30,7 @@ let s:bold='bold'
   let s:green = '#93D97E'
   let s:cyan = '#2DAFAF'
   let s:blue = '#1A9FC3'
+  let s:hard_blue = '#415970'
   let s:pink = '#EF83CE'
   let s:grey = '#C4C4C4'
 " ---------------------------------
@@ -45,8 +46,8 @@ call s:H('Identifier', s:yellow, s:bg, s:none)
 call s:H('Function', s:cyan, s:bg, s:bold)
 call s:H('Statement', s:pink, s:bg, s:bold)
 call s:H('Conditional', s:pink, s:bg, s:bold)
-call s:H('Repeat', s:pink, s:bg, s:bold)
-call s:H('Label', s:pink, s:bg, s:bold)
+call s:H('Repeat', s:hard_blue, s:bg, s:bold)
+call s:H('Label', s:hard_blue, s:bg, s:bold)
 call s:H('Operator', s:pink, s:bg, s:none)
 call s:H('Keyword', s:pink, s:bg, s:bold)
 call s:H('Exception', s:pink, s:bg, s:bold)
