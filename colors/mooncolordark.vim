@@ -22,7 +22,7 @@ let s:bold='bold'
 " ---------------------------------
 " Colors
   let s:bg = '#27292d'
-  let s:bg2 = '#535a5e'
+  let s:bg2 = '#313538'
   let s:fg = '#F0F0F0'
   let s:red = '#f46464'
   let s:orange = '#f7b56f'
