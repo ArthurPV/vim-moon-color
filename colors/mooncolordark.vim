@@ -24,15 +24,14 @@ let s:bold='bold'
   let s:bg = '#27292d'
   let s:bg2 = '#37434E'
   let s:fg = '#F0F0F0'
-  let s:red = '#CC5151'
-  let s:orange = '#EFAB45'
-  let s:yellow = '#EFEF47'
-  let s:green = '#90EF73'
-  let s:cyan = '#45E0E0'
-  let s:blue = '#2EC1EA'
-  let s:hard_blue = '#1066b2'
-  let s:pink = '#E84CB9'
-  let s:grey = '#A3A3A3'
+  let s:red = '#f46464'
+  let s:orange = '#f7b56f'
+  let s:yellow = '#e3ef83'
+  let s:green = '#8feaa2'
+  let s:cyan = '#86dfe8'
+  let s:blue = '#4b6cd8'
+  let s:pink = '#c135f4'
+  let s:grey = '#d3d3d3'
 " ---------------------------------
 " Syntax
 call s:H('Comment', s:grey, s:bg, s:none)
@@ -47,13 +46,13 @@ call s:H('Function', s:cyan, s:bg, s:bold)
 call s:H('Statement', s:pink, s:bg, s:bold)
 call s:H('Conditional', s:pink, s:bg, s:bold)
 call s:H('Repeat', s:pink, s:bg, s:bold)
-call s:H('Label', s:hard_blue, s:bg, s:bold)
-call s:H('Operator', s:pink, s:bg, s:none)
+call s:H('Label', s:red, s:bg, s:bold)
+call s:H('Operator', s:red, s:bg, s:none)
 call s:H('Keyword', s:pink, s:bg, s:bold)
 call s:H('Exception', s:pink, s:bg, s:bold)
 call s:H('PreProc', s:red, s:bg, s:none)
 call s:H('Include', s:blue, s:bg, s:none)
-call s:H('Define', s:blue, s:bg, s:none)
+call s:H('Define', s:red, s:bg, s:none)
 call s:H('Macro', s:yellow, s:bg, s:none)
 call s:H('PreCondit', s:yellow, s:bg, s:none)
 call s:H('Type', s:yellow, s:bg, s:bold)
