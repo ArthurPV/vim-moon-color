@@ -21,7 +21,7 @@ let s:underline = 'underline'
 let s:bold='bold'
 " ---------------------------------
 " Colors
-  let s:bg = '#4c5a6d'
+  let s:bg = '#27292d'
   let s:bg2 = '#37434E'
   let s:fg = '#F0F0F0'
   let s:red = '#CC5151'
