@@ -34,7 +34,7 @@ let s:color11 = "#ebea54"
 let s:color12 = "#7da8e7"
 let s:color13 = "#cd94de"
 let s:color14 = "#1dd5ae"
-let s:color15 = "#efefef"
+let s:color15 = "#0c0c0c"
 
 
 " Syntax
