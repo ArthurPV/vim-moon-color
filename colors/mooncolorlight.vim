@@ -19,7 +19,7 @@ let s:underline = 'underline'
 let s:italic = 'italic'
 
 " Colors
-let s:color0 = "#343639"
+let s:color0 = "#d8d8d8"
 let s:color1 = "#da5757"
 let s:color2 = "#47ba6d"
 let s:color3 = "#edb859"
