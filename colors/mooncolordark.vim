@@ -91,3 +91,30 @@ call s:H('VertSplit', s:color0, s:color8, s:none)
 call s:H('ErrorMsg', s:color15, s:color1, s:none)
 call s:H('Title', s:color11, s:color8, s:none)
 call s:H('Pmenu', s:color15, s:color0, s:none)
+
+" Clojure
+call s:H('clojureKeyword', s:color1, s:color8, s:none)
+call s:H('clojureString', s:color10, s:color8, s:none)
+call s:H('clojureCharacter', s:color3, s:color8, s:none)
+
+" Javascript
+call s:H('javaScriptCommentTodo', s:color7, s:color8, s:none)
+call s:H('javaScriptComment', s:color7, s:color8, s:italic)
+call s:H('javaScriptNumber', s:color3, s:color8, s:none)
+call s:H('javaScriptConditional', s:color1, s:color8, s:none)
+call s:H('javaScriptRepeat', s:color1, s:color8, s:none)
+call s:H('javaScriptBranch', s:color14, s:color8, s:none)
+call s:H('javaScriptType', s:color13, s:color8, s:none)
+call s:H('javaScriptNull', s:color5, s:color8, s:none)
+
+" Java
+call s:H('javaConditional', s:color1, s:color8, s:none)
+call s:H('javaRepeat', s:color1, s:color8, s:none)
+call s:H('javaBoolean', s:color5, s:color8, s:none)
+call s:H('javaConstant', s:color11, s:color8, s:none)
+
+" Python
+call s:H('pythonStatement', s:color1, s:color8, s:none)
+call s:H('pythonConditional', s:color1, s:color8, s:none)
+call s:H('pythonRepeat', s:color1, s:color8, s:none)
+call s:H('pythonOperator', s:color13, s:color8, s:none)
