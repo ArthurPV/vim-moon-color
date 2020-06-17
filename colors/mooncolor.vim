@@ -73,7 +73,7 @@ call s:H('Unerlined', s:color12, s:none, s:underline)
 call s:H('Ignore', s:color15, s:none, s:none)
 call s:H('Todo', s:color15, s:none, s:none)
 call s:H('Error', s:color15, s:color1, s:none)
-call s:H('Question', s:color7, s:color0, s:none)
+call s:H('Question', s:color14, s:none, s:none)
 call s:H('Directory', s:color13, s:none, s:none)
 call s:H('CursorLine', s:none, s:color0, s:none)
 call s:H('MatchParen', s:color15, s:none, s:none)
@@ -94,6 +94,8 @@ call s:H('Pmenu', s:color15, s:color0, s:none)
 call s:H('PmenuSel', s:color15, s:color12, s:none)
 call s:H('PmenuSbar', s:color15, s:color0, s:none)
 call s:H('PmenuThumb', s:color15, s:color7, s:none)
+call s:H('Folded', s:color7, s:none, s:none)
+call s:H('FoldColumn', s:none, s:color0, s:none 
 
 " Clojure
 call s:H('clojureKeyword', s:color9, s:none, s:none)
