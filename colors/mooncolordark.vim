@@ -28,8 +28,8 @@ let s:color4 = "#1D8BE0"
 let s:color5 = "#1D8BE0"
 let s:color6 = "#DB48D1"
 let s:color7 = "#256796"
-let s:color8 = "#666A7C"
-let s:color9 = "#17203A"
+let s:color8 = "#212A45"
+let s:color9 = "#666A7C"
 let s:color10 = "#E05757"
 let s:color11 = "#8AC433"
 let s:color12 = "#EAE72E"
@@ -40,7 +40,7 @@ let s:color16 = "#F7F7F7"
 
 
 " Syntax
-call s:H('Comment', s:color7, s:color8, s:italic)
+call s:H('Comment', s:color9, s:color8, s:italic)
 call s:H('Constant', s:color13, s:color8, s:none)
 call s:H('String', s:color10, s:color8, s:none)
 call s:H('Character', s:color13, s:color8, s:none)
@@ -73,23 +73,10 @@ call s:H('SpecialComment', s:color4, s:color8, s:none)
 call s:H('Debug', s:color4, s:color8, s:none)
 call s:H('Unerlined', s:color12, s:color8, s:underline)
 call s:H('Ignore', s:color16, s:color8, s:none)
-call s:H('Todo', s:color9, s:color8, s:none)
+call s:H('Todo', s:color13, s:color8, s:none)
 call s:H('Error', s:color10, s:color1, s:none)
 call s:H('Question', s:color14, s:color8, s:none)
 call s:H('Directory', s:color13, s:color8, s:none)
 call s:H('CursorLine', s:none, s:color0, s:none)
 call s:H('MatchParen', s:color16, s:color8, s:none)
 call s:H('ColorColumn', s:none, s:color0, s:none)
-
-" Interface
-call s:H('Normal', s:color16, s:color8, s:none)
-call s:H('Visual', s:none, s:color12, s:none)
-call s:H('Cursor', s:none, s:color16, s:none)
-call s:H('iCursor', s:none, s:color8, s:none)
-call s:H('LineNr', s:color16, s:color8, s:none)
-call s:H('NonText', s:color16, s:color8, s:none)
-call s:H('CursorLineNr', s:color0, s:color8, s:none)
-call s:H('VertSplit', s:color16, s:color0, s:none)
-call s:H('ErrorMsg', s:color0, s:color1, s:none)
-call s:H('Title', s:color12, s:color8, s:none)
-call s:H('Pmenu', s:color16, s:color0, s:none)
