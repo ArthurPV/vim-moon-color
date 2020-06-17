@@ -25,17 +25,18 @@ let s:color1 = "#AA2020"
 let s:color2 = "#199E5B"
 let s:color3 = "#E28B51"
 let s:color4 = "#1D8BE0"
-let s:color5 = "#DB48D1"
-let s:color6 = "#256796"
-let s:color7 = "#666A7C"
-let s:color8 = "#17203A"
-let s:color9 = "#E05757"
-let s:color10 = "#8AC433"
-let s:color11 = "#EAE72E"
-let s:color12 = "#7CBFD3"
-let s:color13 = "#CC9AEA"
-let s:color14 = "#32D1B6"
-let s:color15 = "#F7F7F7"
+let s:color5 = "#1D8BE0"
+let s:color6 = "#DB48D1"
+let s:color7 = "#256796"
+let s:color8 = "#666A7C"
+let s:color9 = "#17203A"
+let s:color10 = "#E05757"
+let s:color11 = "#8AC433"
+let s:color12 = "#EAE72E"
+let s:color13 = "#7CBFD3"
+let s:color14 = "#CC9AEA"
+let s:color15 = "#32D1B6"
+let s:color16 = "#F7F7F7"
 
 
 " Syntax
@@ -52,7 +53,7 @@ call s:H('Statement', s:color1, s:color8, s:bold)
 call s:H('Conditional', s:color1, s:color8, s:bold)
 call s:H('Repeat', s:color1, s:color8, s:bold)
 call s:H('Label', s:color1, s:color8, s:none)
-call s:H('Operator', s:color15, s:color8, s:none)
+call s:H('Operator', s:color16, s:color8, s:none)
 call s:H('Keyword', s:color1, s:color8, s:bold)
 call s:H('Exception', s:color1, s:color8, s:bold)
 call s:H('PreProc', s:color3, s:color8, s:none)
@@ -71,24 +72,24 @@ call s:H('Delimiter', s:color4, s:color8, s:none)
 call s:H('SpecialComment', s:color4, s:color8, s:none)
 call s:H('Debug', s:color4, s:color8, s:none)
 call s:H('Unerlined', s:color12, s:color8, s:underline)
-call s:H('Ignore', s:color15, s:color8, s:none)
+call s:H('Ignore', s:color16, s:color8, s:none)
 call s:H('Todo', s:color9, s:color8, s:none)
 call s:H('Error', s:color10, s:color1, s:none)
 call s:H('Question', s:color14, s:color8, s:none)
 call s:H('Directory', s:color13, s:color8, s:none)
 call s:H('CursorLine', s:none, s:color0, s:none)
-call s:H('MatchParen', s:color15, s:color8, s:none)
+call s:H('MatchParen', s:color16, s:color8, s:none)
 call s:H('ColorColumn', s:none, s:color0, s:none)
 
 " Interface
-call s:H('Normal', s:color15, s:color8, s:none)
+call s:H('Normal', s:color16, s:color8, s:none)
 call s:H('Visual', s:none, s:color12, s:none)
-call s:H('Cursor', s:none, s:color15, s:none)
+call s:H('Cursor', s:none, s:color16, s:none)
 call s:H('iCursor', s:none, s:color8, s:none)
-call s:H('LineNr', s:color15, s:color8, s:none)
-call s:H('NonText', s:color15, s:color8, s:none)
+call s:H('LineNr', s:color16, s:color8, s:none)
+call s:H('NonText', s:color16, s:color8, s:none)
 call s:H('CursorLineNr', s:color0, s:color8, s:none)
-call s:H('VertSplit', s:color15, s:color0, s:none)
+call s:H('VertSplit', s:color16, s:color0, s:none)
 call s:H('ErrorMsg', s:color0, s:color1, s:none)
 call s:H('Title', s:color12, s:color8, s:none)
-call s:H('Pmenu', s:color15, s:color0, s:none)
+call s:H('Pmenu', s:color16, s:color0, s:none)
