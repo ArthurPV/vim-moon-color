@@ -32,7 +32,7 @@ let s:color8 = "#242d38"
 let s:color9 = "#E05757"
 let s:color10 = "#8AC433"
 let s:color11 = "#EAE72E"
-let s:color12 = "#7CBFD3"
+let s:color12 = "#5b9aad"
 let s:color13 = "#CC9AEA"
 let s:color14 = "#32D1B6"
 let s:color15 = "#F7F7F7"
@@ -91,6 +91,6 @@ call s:H('VertSplit', s:color15, s:color0, s:none)
 call s:H('ErrorMsg', s:color15, s:color1, s:none)
 call s:H('Title', s:color11, s:color8, s:none)
 call s:H('Pmenu', s:color15, s:color0, s:none)
-call s:H('PmenuSel', s:color15, s:color4, s:none)
+call s:H('PmenuSel', s:color15, s:color12, s:none)
 call s:H('PmenuSbar', s:color15, s:color0, s:none)
 call s:H('PmenuThumb', s:color15, s:color7, s:none)
