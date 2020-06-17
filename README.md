@@ -8,7 +8,6 @@ It is compatible with many languages like:
 - Elixir, Haskell, PureScript, Bash/Shell, XML, MarkDown, Python, Go
 - Rust, Java...
 
-```
 ## To configure dark theme
 It is obviously necessary to add this configuration to the `.vimrc`:
 ```VimL
