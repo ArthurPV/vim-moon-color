@@ -94,8 +94,8 @@ call s:H('Pmenu', s:color15, s:color0, s:none)
 call s:H('PmenuSel', s:color15, s:color12, s:none)
 call s:H('PmenuSbar', s:color15, s:color0, s:none)
 call s:H('PmenuThumb', s:color15, s:color7, s:none)
-call s:H('Folded', s:color7, s:none, s:none)
-call s:H('FoldColumn', s:none, s:color0, s:none) 
+call s:H('Folded', s:color7, s:color0, s:none)
+call s:H('FoldColumn', s:color7, s:color0, s:none) 
 
 " Clojure
 call s:H('clojureKeyword', s:color9, s:none, s:none)
