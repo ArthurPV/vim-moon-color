@@ -94,3 +94,20 @@ call s:H('Pmenu', s:color15, s:color0, s:none)
 call s:H('PmenuSel', s:color15, s:color12, s:none)
 call s:H('PmenuSbar', s:color15, s:color0, s:none)
 call s:H('PmenuThumb', s:color15, s:color7, s:none)
+
+" Clojure
+call s:H('clojureKeyword', s:color9, s:none, s:none)
+call s:H('clojureString', s:color10, s:none, s:none)
+call s:H('clojureCharacter', s:color13, s:none, s:none)
+
+" Java
+call s:H('javaConditional', s:color9, s:none, s:none)
+call s:H('javaRepeat', s:color9, s:none, s:none)
+call s:H('javaBoolean', s:color13, s:none, s:none)
+call s:H('javaConstant', s:color13, s:none, s:none)
+
+" Python
+call s:H('pythonStatement', s:color9, s:none, s:none)
+call s:H('pythonConditional', s:color9, s:none, s:none)
+call s:H('pythonRepeat', s:color9, s:none, s:none)
+call s:H('pythonOperator', s:color15, s:none, s:none)
