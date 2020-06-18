@@ -20,7 +20,7 @@ let s:italic = 'italic'
 let s:bold = 'bold'
 
 " Colors
-let s:color0 = "#3B3E47"
+let s:color0 = "#5e5e59"
 let s:color1 = "#AA2020"
 let s:color2 = "#199E5B"
 let s:color3 = "#E28B51"
@@ -28,7 +28,7 @@ let s:color4 = "#1D8BE0"
 let s:color5 = "#DB48D1"
 let s:color6 = "#256796"
 let s:color7 = "#666A7C"
-let s:color8 = "#293139"
+let s:color8 = "#333330"
 let s:color9 = "#E05757"
 let s:color10 = "#8AC433"
 let s:color11 = "#EAE72E"
