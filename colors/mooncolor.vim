@@ -20,7 +20,7 @@ let s:italic = 'italic'
 let s:bold = 'bold'
 
 " Colors
-let s:color0 = "#4A5763"
+let s:color0 = "#343e47"
 let s:color1 = "#AA2020"
 let s:color2 = "#199E5B"
 let s:color3 = "#E28B51"
