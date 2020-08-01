@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/ArthurPV/vim-moon-color/blob/master/img/logo.svg" alt="logo"></p>
+<p align="center"><img src="img/logo.svg" alt="logo"></p>
 
 It is a dark color scheme that works with vim.
 
