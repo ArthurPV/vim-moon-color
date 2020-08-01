@@ -26,10 +26,10 @@ colorscheme mooncolor-light
 
 ## Screenshots
 
-Moon Dark
+Moon Light
 
 <p align="center"><img src="img/vim-moon-light.png" alt="screen"></p>
 
-Moon Light
+Moon Dark
 
 <p align="center"><img src="img/vim-moon-dark.png" alt="screen"></p>
