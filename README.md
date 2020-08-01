@@ -24,3 +24,12 @@ set background=light
 colorscheme mooncolor-light
 ```
 
+## Screenshots
+
+Moon Dark
+
+<p align="center"><img src="img/vim-moon-light.png" alt="logo"></p>
+
+Moon Light
+
+<p align="center"><img src="img/vim-moon-dark.png" alt="logo"></p>
