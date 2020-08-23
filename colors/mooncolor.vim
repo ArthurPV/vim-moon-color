@@ -93,7 +93,7 @@ call s:H('Title', s:color12, s:none, s:none)
 call s:H('Pmenu', s:color12, s:color1, s:none)
 call s:H('PmenuSel', s:color12, s:color1, s:none)
 call s:H('PmenuSbar', s:color12, s:color1, s:none)
-call s:H('PmenuThumb', s:color12, s:color1, s:none)
+call s:H('PmenuThumb', s:color12, s:color0, s:none)
 call s:H('Folded', s:color12, s:color1, s:none)
 call s:H('FoldColumn', s:color12, s:color1, s:none)
 
