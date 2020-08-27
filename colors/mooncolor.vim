@@ -96,7 +96,7 @@ call s:H('PmenuThumb', s:color12, s:color1, s:none)
 call s:H('Folded', s:color12, s:color1, s:none)
 call s:H('FoldColumn', s:color12, s:color1, s:none)
 call s:H('StatusLine', s:color12, s:color1, s:none)
-call s:H('StatusLineNC', s:none, s:color2, s:none)
+call s:H('StatusLineNC', s:none, s:color0, s:none)
 
 " Clojure
 call s:H('clojureKeyword', s:color11, s:none, s:none)
