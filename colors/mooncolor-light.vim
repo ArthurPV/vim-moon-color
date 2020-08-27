@@ -77,7 +77,6 @@ call s:H('Directory', s:color11, s:none, s:none)
 call s:H('MatchParen', s:color12, s:color4, s:none)
 call s:H('CursorLine', s:none, s:color1, s:none)
 call s:H('ColorColumn', s:none, s:color1, s:none)
-call s:H('StatusLine', s:color12, s:color1, s:none)
 
 " Interface
 call s:H('Normal', s:color12, s:color0, s:none)
@@ -96,6 +95,7 @@ call s:H('PmenuSbar', s:color12, s:color0, s:none)
 call s:H('PmenuThumb', s:color12, s:color1, s:none)
 call s:H('Folded', s:color12, s:color0, s:none)
 call s:H('FoldColumn', s:color12, s:color0, s:none)
+call s:H('StatusLine', s:color12, s:color1, s:none)
 
 " Clojure
 call s:H('clojureKeyword', s:color11, s:none, s:none)
