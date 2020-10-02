@@ -28,8 +28,8 @@ colorscheme mooncolor-light
 
 Moon Light
 
-<p align="center"><img src="img/vim-moon-light.png" alt="screen"></p>
+<p align="center"><img src="img/moon_color_light.png" alt="screen"></p>
 
 Moon Dark
 
-<p align="center"><img src="img/vim-moon-dark.png" alt="screen"></p>
+<p align="center"><img src="img/moon_color_dark.png" alt="screen"></p>
