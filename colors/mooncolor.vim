@@ -146,7 +146,7 @@ else
 	hi ColorColumn cterm=NONE guibg=#b7bbc5 guifg=NONE
 	hi CursorColumn cterm=NONE guibg=#b7bbc5 guifg=NONE
 	hi CursorLine cterm=NONE guibg=#cbccd0 guifg=NONE
-	hi Comment guifg=#626171
+	hi Comment guifg=#c6c6c6
 	hi Conceal guifg=#151615 guibg=#cbccd0
 	hi Constant guifg=#ae6b3e
 	hi Character guifg=#8fac74
@@ -156,7 +156,7 @@ else
 	hi Boolean guifg=#d15151
 	hi Float guifg=#d15151
 	hi Cursor guibg=#527a9a guifg=#151615
-	hi SpecialComment guifg=#626171
+	hi SpecialComment guifg=#c6c6c6
 	hi CursorLineNr cterm=NONE guibg=#cbccd0 guifg=#b39f11
 	hi Delimiter guifg=#8dbeb7
 	hi DiffAdd guifg=#151615 guibg=#8fac74
