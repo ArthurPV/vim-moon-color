@@ -256,7 +256,7 @@ else
 		let g:terminal_color_4 = '#527a9a'
 		let g:terminal_color_5 = '#887893'
 		let g:terminal_color_6 = '#8dbeb7'
-		let g:terminal_color_7 = '#626171'
+		let g:terminal_color_7 = '#c6c6c6'
 		let g:terminal_color_8 = '#b7bbc5'
 		let g:terminal_color_9 = '#d15151'
 		let g:terminal_color_10 = '#8fac74'
@@ -266,6 +266,6 @@ else
 		let g:terminal_color_14 = '#8dbeb7'
 		let g:terminal_color_15 = '#151615'
 	else
-		let g:terminal_ansi_colors = ['#cbccd0', '#d15151', '#8fac74', '#ae6b3e', '#527a9a', '#887893', '#8dbeb7', '#626171', '#b7bbc5', '#d15151', '#8fac74', '#b39f11', '#527a9a', '#887893', '#8dbeb7', '#151615']
+		let g:terminal_ansi_colors = ['#cbccd0', '#d15151', '#8fac74', '#ae6b3e', '#527a9a', '#887893', '#8dbeb7', '#c6c6c6', '#b7bbc5', '#d15151', '#8fac74', '#b39f11', '#527a9a', '#887893', '#8dbeb7', '#151615']
 	endif
 endif
