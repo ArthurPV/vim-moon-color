@@ -40,7 +40,7 @@ if &background == 'dark'
 	hi ErrorMsg guifg=#d5ddd8 guibg=#d15151
 	hi WarningMsg guifg=#d5ddd8 guibg=#d15151
 	hi EndOfBuffer guibg=#171d23 guifg=#4d596d
-	hi NonText guibg=#4d596d guifg=#a9a9aa
+	hi NonText guibg=#171d23 guifg=#a9a9aa
 	hi SpecialKey guibg=NONE guifg=#4d596d
 	hi Folded guibg=#a9a9aa guifg=#887893
 	hi FoldColumn guibg=#a9a9aa guifg=#887893
