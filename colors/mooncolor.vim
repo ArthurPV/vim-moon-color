@@ -168,7 +168,7 @@ else
 	hi ErrorMsg guifg=#151615 guibg=#d15151
 	hi WarningMsg guifg=#151615 guibg=#d15151
 	hi EndOfBuffer guibg=#efefef guifg=#cbccd0
-	hi NonText guibg=#b7bbc5 guifg=#151615
+	hi NonText guibg=#efefef guifg=#151615
 	hi SpecialKey guibg=NONE guifg=#b7bbc5
 	hi Folded guibg=#b7bbc5 guifg=#887893
 	hi FoldColumn guibg=#b7bbc5 guifg=#887893
