@@ -40,7 +40,7 @@ if &background == 'dark'
 	hi ErrorMsg guifg=#d5ddd8 guibg=#d15151
 	hi WarningMsg guifg=#d5ddd8 guibg=#d15151
 	hi EndOfBuffer guibg=#171d23 guifg=#4d596d
-	hi NonText guibg=#171d23 guifg=#a9a9aa
+	hi NonText guibg=#171d23 guifg=#525b65
 	hi SpecialKey guibg=NONE guifg=#4d596d
 	hi Folded guibg=#a9a9aa guifg=#887893
 	hi FoldColumn guibg=#a9a9aa guifg=#887893
@@ -168,7 +168,7 @@ else
 	hi ErrorMsg guifg=#151615 guibg=#d15151
 	hi WarningMsg guifg=#151615 guibg=#d15151
 	hi EndOfBuffer guibg=#efefef guifg=#cbccd0
-	hi NonText guibg=#efefef guifg=#151615
+	hi NonText guibg=#efefef guifg=#c6c6c6
 	hi SpecialKey guibg=NONE guifg=#b7bbc5
 	hi Folded guibg=#b7bbc5 guifg=#887893
 	hi FoldColumn guibg=#b7bbc5 guifg=#887893
