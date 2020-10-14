@@ -74,7 +74,7 @@ if &background == 'dark'
 	hi SpellRare gui=undercurl guifg=NONE guisp=#887893
 	hi Statement gui=NONE guifg=#527a9a
 	hi Keyword gui=NONE guifg=#527a9a
-	hi StatusLine cterm=reverse gui=reverse guifg=#d5ddd8 guibg=#4d596d term=reverse
+	hi StatusLine cterm=reverse gui=reverse guifg=#4d596d guibg=#d5ddd8 term=reverse
     hi StatusLineTerm cterm=reverse gui=reverse guifg=#d5ddd8 guibg=#887893 term=reverse
 	hi StatusLineNC cterm=reverse gui=reverse guibg=#d5ddd8 guibg=#887893
 	hi StatusLineTermNC cterm=reverse gui=reverse guibg=#887893 guifg=#d5ddd8
