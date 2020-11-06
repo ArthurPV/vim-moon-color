@@ -20,7 +20,7 @@ if &background == 'dark'
 	hi CursorLine cterm=NONE guibg=#2d3241 guifg=NONE
 	hi Comment guifg=#525b65
 	hi Conceal guifg=#d5ddd8 guibg=#4d596d
-	hi Constant guifg=#ae6b3e
+	hi Constant guifg=#b39f11
 	hi Character guifg=#8fac74
 	hi Debug guifg=#ae6b3e
 	hi Tag guifg=#8dbeb7
@@ -44,7 +44,7 @@ if &background == 'dark'
 	hi SpecialKey guibg=NONE guifg=#4d596d
 	hi Folded guibg=#a9a9aa guifg=#887893
 	hi FoldColumn guibg=#a9a9aa guifg=#887893
-	hi Function guifg=#ae6b3e
+	hi Function guifg=#9399c6
 	hi Identifier cterm=NONE guifg=#527a9a
 	hi Ignore guibg=NONE guifg=NONE 
 	hi Include cterm=NONE guifg=#b39f11
@@ -148,7 +148,7 @@ else
 	hi CursorLine cterm=NONE guibg=#cbccd0 guifg=NONE
 	hi Comment guifg=#c6c6c6
 	hi Conceal guifg=#151615 guibg=#cbccd0
-	hi Constant guifg=#ae6b3e
+	hi Constant guifg=#b39f11
 	hi Character guifg=#8fac74
 	hi Debug guifg=#ae6b3e
 	hi Tag guifg=#8dbeb7
@@ -172,7 +172,7 @@ else
 	hi SpecialKey guibg=NONE guifg=#b7bbc5
 	hi Folded guibg=#b7bbc5 guifg=#887893
 	hi FoldColumn guibg=#b7bbc5 guifg=#887893
-	hi Function guifg=#ae6b3e
+	hi Function guifg=#9399c6
 	hi Identifier cterm=NONE guifg=#527a9a
 	hi Ignore guibg=NONE guifg=NONE 
 	hi Include cterm=NONE guifg=#b39f11
