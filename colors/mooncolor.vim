@@ -29,8 +29,8 @@ if &background == 'dark'
 	hi Float guifg=#96cdca
 	hi Cursor guibg=#3b5d7f guifg=#e2e7e4
 	hi SpecialComment guifg=#37526c
-	" hi CursorLineNr cterm=NONE guibg=#3b5d7f guifg=#cacfcc
-	hi CursorLineNr cterm=NONE guibg=NONE guifg=#3b5d7f
+	hi CursorLineNr cterm=NONE guibg=#223549 guifg=#f9ec7e
+	" hi CursorLineNr cterm=NONE guibg=NONE guifg=#3b5d7f
 	hi Delimiter guifg=#96cdca
 	hi DiffAdd guifg=#020202 guibg=#6ca573
 	hi DiffChange guifg=#020202 guibg=#e8b189
