@@ -24,6 +24,10 @@ set background=light
 colorscheme mooncolor-light
 ```
 
+## Color scheme
+
+<p align="center"><img src="img/palette_color.svg" alt="colorscheme"></p>
+
 ## Screenshots
 
 Moon Light
