@@ -29,7 +29,8 @@ if &background == 'dark'
 	hi Float guifg=#96cdca
 	hi Cursor guibg=#3b5d7f guifg=#e2e7e4
 	hi SpecialComment guifg=#37526c
-	hi CursorLineNr cterm=NONE guibg=#3b5d7f guifg=#cacfcc
+	" hi CursorLineNr cterm=NONE guibg=#3b5d7f guifg=#cacfcc
+	hi CursorLineNr cterm=NONE guibg=NONE guifg=#3b5d7f
 	hi Delimiter guifg=#96cdca
 	hi DiffAdd guifg=#020202 guibg=#6ca573
 	hi DiffChange guifg=#020202 guibg=#e8b189
@@ -49,7 +50,7 @@ if &background == 'dark'
 	hi Ignore guibg=NONE guifg=NONE 
 	hi Include cterm=NONE guifg=#f9ec7e
 	hi IncSearch cterm=reverse gui=reverse guifg=NONE term=reverse
-	hi LineNr guibg=NONE guifg=#3b5d7f
+	hi LineNr guibg=NONE guifg=#223549
 	hi MatchParen guibg=#3b5d7f cterm=NONE guifg=#e2e7e4
 	hi ModeMsg guifg=#3b5d7f
 	hi MoreMsg guifg=#88cf91
