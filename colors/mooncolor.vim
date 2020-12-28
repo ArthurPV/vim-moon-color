@@ -20,7 +20,7 @@ if &background == 'dark'
 	hi CursorLine cterm=NONE guibg=#182533 guifg=NONE
 	hi Comment guifg=#37526c
 	hi Conceal guifg=#cacfcc guibg=#3b5d7f
-	hi Constant guifg=#f84863
+	hi Constant guifg=#e5678e
 	hi Character guifg=#88cf91
 	hi Debug guifg=#8dc4be
 	hi Tag guifg=#8dc4be
@@ -33,12 +33,12 @@ if &background == 'dark'
 	hi Delimiter guifg=#96cdca
 	hi DiffAdd guifg=#020202 guibg=#6ca573
 	hi DiffChange guifg=#020202 guibg=#e8b189
-	hi DiffDelete cterm=NONE gui=NONE guifg=#020202 guibg=#df5167
+	hi DiffDelete cterm=NONE gui=NONE guifg=#020202 guibg=#b84a5e
 	hi DiffText cterm=NONE gui=NONE guifg=#d5ddd8 guifg=#858ac8
 	hi Directory guifg=#a3a8e7
-	hi Error guifg=#cacfcc guibg=#df5167
-	hi ErrorMsg guifg=#cacfcc guibg=#df5167
-	hi WarningMsg guifg=#cacfcc guibg=#df5167
+	hi Error guifg=#cacfcc guibg=#b84a5e
+	hi ErrorMsg guifg=#cacfcc guibg=#b84a5e
+	hi WarningMsg guifg=#cacfcc guibg=#b84a5e
 	hi EndOfBuffer guibg=#15212d guifg=#3b5d7f
 	hi NonText guibg=#15212d guifg=#3b5d7f
 	hi SpecialKey guibg=NONE guifg=#3b5d7f
@@ -59,8 +59,8 @@ if &background == 'dark'
 	hi PmenuSel guibg=#3b5d7f guifg=#cacfcc
 	hi PmenuThumb guibg=#3b5d7f guifg=NONE
 	hi PreProc guifg=#f9ec7e
-	hi Define guifg=#f84863
-	hi Macro guifg=#f84863
+	hi Define guifg=#e5678e
+	hi Macro guifg=#e5687e
 	hi PreCondit guifg=#f9ec7e
 	hi Question guifg=#7cd8f1
 	hi QuickFixLine guibg=#cacfcc guifg=#7cd8f1
@@ -68,12 +68,12 @@ if &background == 'dark'
 	hi SignColumn guibg=#15212d guifg=#858ac8
 	hi Special guifg=#64acbf
 	hi SpecialChar guifg=#64acbf
-	hi SpellBad gui=undercurl guifg=NONE guisp=#df5167
+	hi SpellBad gui=undercurl guifg=NONE guisp=#b84a5e
 	hi SpellCap gui=undercurl guifg=NONE guisp=#7cd8f1
 	hi SpellLocal gui=undercurl guifg=NONE guisp=#96cdca
 	hi SpellRare gui=undercurl guifg=NONE guisp=#858ac8
-	hi Statement gui=NONE guifg=#f84863
-	hi Keyword gui=NONE guifg=#f84863
+	hi Statement gui=NONE guifg=#e5678e
+	hi Keyword gui=NONE guifg=#e5678e
 	hi StatusLine cterm=reverse gui=reverse guifg=#cacfcc guibg=#223549 term=reverse
 	hi StatusLineTerm cterm=reverse gui=reverse guifg=#cacfcc guibg=#858ac8 term=reverse
 	hi StatusLineNC cterm=reverse gui=reverse guibg=#cacfcc guibg=#858ac8
@@ -121,7 +121,7 @@ if &background == 'dark'
 
 	if has('nvim') 
 		let g:terminal_color_0 = '#223549'
-		let g:terminal_color_1 = '#df5167'
+		let g:terminal_color_1 = '#b84a5e'
 		let g:terminal_color_2 = '#6ca573'
 		let g:terminal_color_3 = '#e8b189'
 		let g:terminal_color_4 = '#64acbf'
@@ -129,7 +129,7 @@ if &background == 'dark'
 		let g:terminal_color_6 = '#96cdca'
 		let g:terminal_color_7 = '#37526c'
 		let g:terminal_color_8 = '#3b5d7f'
-		let g:terminal_color_9 = '#f84863'
+		let g:terminal_color_9 = '#e5687e'
 		let g:terminal_color_10 = '#88cf91'
 		let g:terminal_color_11 = '#f9ec7e'
 		let g:terminal_color_12 = '#7cd8f1'
@@ -137,7 +137,7 @@ if &background == 'dark'
 		let g:terminal_color_14 = '#b5fffb'
 		let g:terminal_color_15 = '#e2e7e4'
 	else
-		let g:terminal_ansi_colors = ['#223549', '#df5167', '#6ca573', '#e8b189', '#64acbf', '#858ac8', '#96cdca', '#37526c', '#3b5d7f', '#f84863', '#88cf91', '#f9ec7e', '#7cd8f1', '#a3a8e7', '#b5fffb', '#e2e7e4']
+		let g:terminal_ansi_colors = ['#223549', '#df5167', '#6ca573', '#e8b189', '#64acbf', '#858ac8', '#96cdca', '#37526c', '#3b5d7f', '#e5687e', '#88cf91', '#f9ec7e', '#7cd8f1', '#a3a8e7', '#b5fffb', '#e2e7e4']
 	endif
 else
 	set background=light
@@ -147,7 +147,7 @@ else
 	hi CursorLine cterm=NONE guibg=#cccccc guifg=NONE
 	hi Comment guifg=#B4B3B3
 	hi Conceal guifg=#0e0f0e guibg=#dfdddd
-	hi Constant guifg=#f84863
+	hi Constant guifg=#e5687e
 	hi Character guifg=#88cf91
 	hi Debug guifg=#7cd8f1
 	hi Tag guifg=#7cd8f1
@@ -160,12 +160,12 @@ else
 	hi Delimiter guifg=#96cdca
 	hi DiffAdd guifg=#0e0f0e guibg=#6ca573
 	hi DiffChange guifg=#0e0f0e guibg=#64acbf
-	hi DiffDelete cterm=NONE gui=NONE guifg=#0e0f0e guibg=#df5167
+	hi DiffDelete cterm=NONE gui=NONE guifg=#0e0f0e guibg=#b84a5e
 	hi DiffText cterm=NONE gui=NONE guifg=#0e0f0e guifg=#858ac8
 	hi Directory guifg=#a3a8e7
-	hi Error guifg=#cacfcc guibg=#df5167
-	hi ErrorMsg guifg=#cacfcc guibg=#df5167
-	hi WarningMsg guifg=#cacfcc guibg=#df5167
+	hi Error guifg=#cacfcc guibg=#b84a5e
+	hi ErrorMsg guifg=#cacfcc guibg=#b84a5e
+	hi WarningMsg guifg=#cacfcc guibg=#b84a5e
 	hi EndOfBuffer guibg=#dddddd guifg=#3b5d7f
 	hi NonText guibg=#dddddd guifg=#dfdddd
 	hi SpecialKey guibg=NONE guifg=#3b5d7f
@@ -186,8 +186,8 @@ else
 	hi PmenuSel guibg=#dfdddd guifg=#0e0f0e
 	hi PmenuThumb guibg=#dfdddd guifg=NONE
 	hi PreProc guifg=#b39f11
-	hi Define guifg=#f84863
-	hi Macro guifg=#f84863
+	hi Define guifg=#e5678e
+	hi Macro guifg=#e5678e
 	hi PreCondit guifg=#b39f11
 	hi Question guifg=#7cd8f1
 	hi QuickFixLine guibg=#cacfcc guifg=#7cd8f1
@@ -195,12 +195,12 @@ else
 	hi SignColumn guibg=#dddddd guifg=#858ac8
 	hi Special guifg=#64acbf
 	hi SpecialChar guifg=#64acbf
-	hi SpellBad gui=undercurl guifg=NONE guisp=#df5167
+	hi SpellBad gui=undercurl guifg=NONE guisp=#b84a5e
 	hi SpellCap gui=undercurl guifg=NONE guisp=#7cd8f1
 	hi SpellLocal gui=undercurl guifg=NONE guisp=#96cdca
 	hi SpellRare gui=undercurl guifg=NONE guisp=#858ac8
-	hi Statement gui=NONE guifg=#f84863
-	hi Keyword gui=NONE guifg=#f84863
+	hi Statement gui=NONE guifg=#e5678e
+	hi Keyword gui=NONE guifg=#e5678e
 	hi StatusLine cterm=reverse gui=reverse guifg=#cacfcc guibg=#b4b4b4 term=reverse
 	hi StatusLineTerm cterm=reverse gui=reverse guifg=#cacfcc guibg=#858ac8 term=reverse
 	hi StatusLineNC cterm=reverse gui=reverse guibg=#cacfcc guibg=#858ac8
