@@ -137,7 +137,7 @@ if &background == 'dark'
 		let g:terminal_color_14 = '#b5fffb'
 		let g:terminal_color_15 = '#e2e7e4'
 	else
-		let g:terminal_ansi_colors = ['#2d3241', '#d15151', '#8fac74', '#ae6b3e', '#527a9a', '#887893', '#8dbeb7', '#525b65', '#4d596d', '#d15151', '#8fac74', '#b39f11', '#527a9a', '#887893', '#8dbeb7', '#d5ddd8']
+		let g:terminal_ansi_colors = ['#223549', '#df5167', '#6ca573', '#e8b189', '#64acbf', '#858ac8', '#96cdca', '#37526c', '#3b5d7f', '#f84863', '#88cf91', '#f9ec7e', '#7cd8f1', '#a3a8e7', '#b5fffb', '#e2e7e4']
 	endif
 else
 	set background=light
