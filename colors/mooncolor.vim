@@ -86,7 +86,7 @@ if &background == 'dark'
 	hi TabLineFill cterm=reverse gui=reverse guibg=#858ac8 guifg=#cacfcc
 	hi TabLineSel cterm=NONE gui=NONE guibg=#cacfcc guifg=#223549
 	hi TermCursorNC guibg=#858ac8 guifg=#cacfcc
-	hi Title gui=NONE guifg=#6ca573
+	hi Title gui=NONE guifg=#f9ec7e
 	hi Todo guibg=NONE guifg=#b5fffb
 	hi Type gui=NONE guifg=#a3a8e7
 	hi Underlined cterm=underline gui=underline guifg=#3b5d7f term=underline
